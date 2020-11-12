@@ -19,6 +19,7 @@ header h1{
     padding-bottom: 20px;
 }
 
+
 footer {
     
     position: bottom;
@@ -43,7 +44,7 @@ footer {
     
 }
 .buttons-container a {
-  margin: 0 15px;
+    margin: 0 5px;
 }
 
 .fotMedia-container{
@@ -113,11 +114,16 @@ footer {
  grid-template-columns: 1fr 1fr 1fr;
  grid-template-rows: 1fr;
  margin: auto;
+ margin-top: 20px;
 }
 
 .catItem{
     display: block; 
     margin: auto;
+}
+
+.fotMedia-container a {
+margin :0 7px;
 }
 
 @media only screen and (max-width: 1240px) {
@@ -126,3 +132,7 @@ footer {
     width: auto;
   }
 }
+
+
+
+
