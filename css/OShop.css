@@ -43,6 +43,12 @@ footer {
     flex-direction: row;
     justify-content: center;
 }
+.buttons-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 0 454px;
+}
 
 .fotMedia-container{
     display: flex;
@@ -79,4 +85,41 @@ footer {
     background-color:transparent ;
     width: 50px;
     height: 50px;
+}
+
+
+
+.btn-account{
+    background-image : url(/img/Account.png);
+    background-size: cover;
+    background-color:transparent ;
+    width: 30px;
+    height: 30px;}
+    .btn-favorites{
+    background-image : url(/img/favorite.png);
+    background-size: cover;
+    background-color:transparent ;
+    width: 30px;
+    height: 30px;}
+.btn-Basket{
+    background-image : url(/img/basket.png);
+    background-size: cover;
+    background-color:transparent ;
+    width: 30px;
+    height: 30px;}
+
+
+
+
+
+.catList{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr;
+ padding: 0 50px;
+}
+
+.catItem{
+    display: block; 
+    margin: auto;
 }
