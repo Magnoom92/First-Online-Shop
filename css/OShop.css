@@ -19,20 +19,13 @@ header h1{
     padding-bottom: 20px;
 }
 
-
-
-
-
-
-
-
 footer {
     
     position: bottom;
     bottom : 0;
-     height:60px;
-     margin-top : 40px;
-     text-align: left ;
+    height:60px;
+    margin-top : 40px;
+    text-align: left ;
  }
 
 
@@ -44,43 +37,46 @@ footer {
     justify-content: center;
 }
 .buttons-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding: 0 454px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.buttons-container a {
+  margin: 0 15px;
 }
 
 .fotMedia-container{
     display: flex;
     justify-content: center;
 }
-.fot--column-1{
-                    padding-right: 20px;
-                }
+.fot--column-1 {
+  padding-right: 20px;
+}
 
 .btn-facebook{
-    background-image : url(/img/facebook.png);
+    background-image : url(../img/facebook.png);
     background-size: cover;
     background-color:transparent ;
     width: 50px;
     height: 50px;
 }
 .btn-ig{
-    background-image : url(/img/instagram.png);
+    background-image : url(../img/instagram.png);
     background-size: cover;
     background-color:transparent ;
     width: 50px;
     height: 50px;
 }
 .btn-Twit{
-    background-image : url(/img/twitter.png);
+    background-image : url(../img/twitter.png);
     background-size: cover;
     background-color:transparent ;
     width: 50px;
     height: 50px;
 }
 .btn-tmbl{
-    background-image : url(/img/tumblr.png);
+    background-image : url(../img/tumblr.png);
     background-size: cover;
     background-color:transparent ;
     width: 50px;
@@ -90,19 +86,19 @@ footer {
 
 
 .btn-account{
-    background-image : url(/img/Account.png);
+    background-image : url(../img/Account.png);
     background-size: cover;
     background-color:transparent ;
     width: 30px;
     height: 30px;}
     .btn-favorites{
-    background-image : url(/img/favorite.png);
+    background-image : url(../img/favorite.png);
     background-size: cover;
     background-color:transparent ;
     width: 30px;
     height: 30px;}
 .btn-Basket{
-    background-image : url(/img/basket.png);
+    background-image : url(../img/basket.png);
     background-size: cover;
     background-color:transparent ;
     width: 30px;
@@ -116,10 +112,17 @@ footer {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
  grid-template-rows: 1fr;
- padding: 0 50px;
+ margin: auto;
 }
 
 .catItem{
     display: block; 
     margin: auto;
+}
+
+@media only screen and (max-width: 1240px) {
+  .catItem img{
+    height: 200px;
+    width: auto;
+  }
 }
