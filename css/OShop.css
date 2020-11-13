@@ -1,5 +1,5 @@
 header{ 
-    background-color: #124E78 ;
+    background-color:  transparent;    
     text-align: center;
 
 }
@@ -7,15 +7,16 @@ header{
 header img
 { 
     border-radius: 100px;
-    width: 200px;
-   
-    padding-top: 70px;
-    padding-bottom: 20px;
+ 
+    padding-top: 12px;
+    padding-bottom: 16px;
+    max-width: 16vw;
+    height: auto;
 }
 
 header h1{
     font-family: sans-serif;
-    color: #F0F0C9;
+    color: #124E78;
     padding-bottom: 20px;
 }
 
@@ -41,6 +42,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    border-bottom: solid 2px;
     
 }
 .buttons-container a {
@@ -50,6 +52,7 @@ footer {
 .fotMedia-container{
     display: flex;
     justify-content: center;
+    border-bottom: solid 1px;
 }
 .fot--column-1 {
   padding-right: 20px;
@@ -115,6 +118,7 @@ footer {
  grid-template-rows: 1fr;
  margin: auto;
  margin-top: 20px;
+ min-height: 690px;
 }
 
 .catItem{
@@ -132,7 +136,37 @@ margin :0 7px;
     width: auto;
   }
 }
+.catTipe{
+    background-color: gray;
+    text-align: center;
+    font-size: 30px;
+}
+.catItem a:link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+.catItem a:visited{
+    color: rgb(22, 22, 22);
+  background-color: transparent;
+  text-decoration: none;
+}
+.catItem a:hover{
+    color: rgb(119, 49, 49);
+  background-color: transparent;
+  text-decoration: none;
+}
+.catItem a:active{
+    color: rgb(170, 138, 138);
+  background-color: transparent;
+  text-decoration: none;
+}
 
-
-
+.headerStrip{
+    height: 8vw;
+    width: 100%;
+    background-color: brown;
+    z-index: -1;
+    position: absolute;
+}
 
